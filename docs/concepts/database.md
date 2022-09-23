@@ -114,7 +114,7 @@ $ export PREFECT_ORION_DATABASE_CONNECTION_URL="sqlite+aiosqlite:///file::memory
 </div>
 
 !!! warning "In-memory databases for testing only"
-    In-memory databases are only supported by Prefect Orion for testing purposes and are not compatible with multiprocessing.  
+    In-memory databases are only supported by Prefect Orion for testing purposes and are not compatible with multiprocessing or async tasks.
 
 ## Database versions
 
